@@ -326,7 +326,16 @@ textarea {
   color: #2cc5d2;
 }
 
+.list-item.INPUT_PINNED .icon-star {
+  color: #2cc5d2;
+}
+
 .list-item.TASK_ARCHIVED input[type="text"] {
+  color: #a0aec0;
+  text-decoration: line-through;
+}
+
+.list-item.INPUT_ARCHIVED input[type="text"] {
   color: #a0aec0;
   text-decoration: line-through;
 }
